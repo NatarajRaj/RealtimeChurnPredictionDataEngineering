@@ -22,7 +22,7 @@ This project simulates and processes real-time customer churn data using Kafka, 
    - Stored in Delta format and published to Kafka.
 
 4. **Visualization**
-   - Uses Matplotlib to visualize trends like churn rate, resolution time, etc.
+   - Uses Matplotlib to visualize trends like churn(no longer user) rate, resolution time, etc.
 
 ---
 
@@ -35,16 +35,6 @@ This project simulates and processes real-time customer churn data using Kafka, 
 - **Python**: Data generation and orchestration
 - **Local Disk**: Silver/Gold storage
 - **Kafka Topics**: `bronze_topic`, `silver_topic`, `gold_topic`
-
----
-
-## 📸 Architecture Diagram
-
-![Pipeline Architecture](docs/pipeline_diagram.png)
-
-> Note: Add `docs/pipeline_diagram.png` to your repo.
-
----
 
 ## 🛠️ Run Locally
 
